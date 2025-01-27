@@ -73,31 +73,32 @@ container {
 /* HeaderPart  End */
 
 /* Banner Start */
-#Bannerbg{
+#Bannerbg {
     background-image: url(../Images/Banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-     padding-top: 155px;
-     padding-bottom: 115px;
+    padding-top: 155px;
+    padding-bottom: 115px;
 }
 
-.card{
+.card {
     width: 50%;
     height: 450px;
-    background:  #FFF3E3;
+    background: #FFF3E3;
     margin-left: auto;
     margin-right: 5%;
-    padding:  65px 75px 35px 40px ;
+    padding: 65px 75px 35px 40px;
     border-radius: 10px;
 }
 
 
-.card h4{
-letter-spacing: 3px;
-font-weight: 500;
+.card h4 {
+    letter-spacing: 3px;
+    font-weight: 500;
 }
-.card h1{
+
+.card h1 {
     margin: 20px 0px 25px;
     color: #B88E2F;
     line-height: 65px;
@@ -105,13 +106,15 @@ font-weight: 500;
     margin-right: 150px;
 
 }
-.card p{
-padding-right: 140px;
-margin: 20px 0px 20px;
-color: #333333;
+
+.card p {
+    padding-right: 140px;
+    margin: 20px 0px 20px;
+    color: #333333;
 
 }
-.card a{
+
+.card a {
     text-transform: uppercase;
     color: white;
     font-weight: bold;
@@ -124,35 +127,43 @@ color: #333333;
 
 
 /* Rooms Start */
-#Roomspart{
-padding-top: 65px;
-padding-bottom: 65px;
+#Roomspart {
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 
 
 /* Commontitle Start */
 
-.Commontitle{
+.Commontitle {
     text-align: center;
 }
-.Commontitle h3{
-font-weight: 700;
-color: #333333;
+
+.Commontitle h3 {
+    font-weight: 700;
+    color: #333333;
+    font-size: 40px;
 }
 
-.Commontitle p{
-font-weight: 400;
-color: #666666;
+.Commontitle p {
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 50px;
 }
+
 /* Commontitle End */
 
-.Roomsflex{
+.Roomsflex {
     display: flex;
-justify-content: space-around;
-
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 300;
 }
 
+.Roomsflex a {
+    margin-bottom: 25px;
+}
 
 /* Rooms End */
 
