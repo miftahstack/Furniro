@@ -174,7 +174,7 @@ ol {
 
 /* Products Start */
 #ProductPart {
-    margin-bottom: 65px;
+    margin-bottom: 30px;
 }
 
 .Productitemspart {
@@ -317,14 +317,100 @@ ol {
 
 }
 
-
 /* Products End */
 
+/* ShowMore Start */
 
-/* Banner Start */
-/* Banner End */
-/* Banner Start */
-/* Banner End */
+.ShowMore {
+    height: 48px;
+    width: 245px;
+    border: 1px solid #B88E2F;
+    color: #B88E2F;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ShowMore h3 {
+    font-weight: 400;
+    color: #B88E2F;
+
+
+}
+
+/* ShowMore End */
+
+
+/* Footer Start */
+
+.FooterPart {
+    height: 500px;
+    width: 1240px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part1 h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.part1 p {
+    font-size: 18px;
+    color: #9F9F9F;
+    line-height: 25px;
+
+}
+
+#commontitle {
+    font-size: 16px;
+    color: #9F9F9F;
+    padding-bottom: 30px;
+
+}
+
+.part0 ul li {
+    padding-bottom: 40px;
+
+}
+
+.part0 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.part4{
+    display: flex;
+    gap: 20px;
+}
+
+.Email {
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid #000;
+    padding: 0px 15px 3px 0px;
+}
+
+.Subscribe{
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid #000;
+    padding: 0px 0px 3px 0px;
+    width: 70px;
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+}
+/* Footer End */
+
+
+
+
 /* Banner Start */
 /* Banner End */
 /* Banner Start */
