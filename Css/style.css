@@ -9,6 +9,7 @@
 a {
     text-decoration: none;
     display: inline-block;
+
 }
 
 h1,
@@ -28,9 +29,10 @@ ol {
     list-style-type: none;
 }
 
-container {
+.container {
     width: 1240px;
     margin: 0 auto;
+
 }
 
 /* All Common Css End */
@@ -49,7 +51,6 @@ container {
 .Headerflex {
     justify-content: space-between;
     display: flex;
-    margin: 0px 80px;
     align-items: center;
 
 }
@@ -62,6 +63,10 @@ container {
 .Menu ul li {
     display: inline;
     padding: 0 20px;
+}
+
+.Menu a {
+    color: rgb(0, 0, 0);
 }
 
 .Iconflex {
@@ -167,10 +172,115 @@ container {
 
 /* Rooms End */
 
+/* Products Start */
+#ProductPart {
+    margin-bottom: 65px;
+}
+
+.Productitemspart {
+    padding-top: 30px;
+
+}
+
+.Productitems {
+    width: 20%;
+    position: relative;
+
+}
+
+.Productitems img {
+    display: block;
+    width: 100%;
+
+}
+
+.Productimage{
+    position: relative;
+}
+
+.badges {
+    width: 48px;
+    height: 48px;
+    background: #E97171;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    align-items: center;
 
 
-/* Banner Start */
-/* Banner End */
+}
+
+.badges h4 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+
+}
+
+
+.Producttext{
+    background: #F4F5F7;
+    padding:20px ;
+    
+}
+.Producttext h3{
+    color: #3A3A3A;
+    font-size: 24px;
+    
+}
+.Producttext p{
+    color: #898989;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.Producttext h4{
+    color: #3A3A3A;
+    font-size: 16px;
+
+}
+.Producttext del{
+    color: #B0B0B0;
+    font-size: 12px;
+    padding-left: 10px;
+
+}
+
+.ProductOverly{
+ background: rgba(0, 0, 0, 0.655);   
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ top: 0;
+ transition: 0.4s;
+ opacity: 0;
+
+}
+
+.button{
+    background: #fff;
+    width: 202px;
+    height: 48px;
+    display: flex;
+}
+.button h3{
+    text-align: center;
+    color: #B88E2F;
+
+}
+
+.Productitems:hover .ProductOverly{
+    opacity: 1;
+
+}
+
+
+/* Products End */
+
+
 /* Banner Start */
 /* Banner End */
 /* Banner Start */
