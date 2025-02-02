@@ -382,35 +382,117 @@ ol {
     color: black;
     font-weight: 400;
 }
-.part4{
+
+.part4 {
     display: flex;
     gap: 20px;
 }
 
 .Email {
     background: transparent;
-    border:none;
+    border: none;
     border-bottom: 2px solid #000;
     padding: 0px 15px 3px 0px;
 }
 
-.Subscribe{
+.Subscribe {
     background: transparent;
-    border:none;
+    border: none;
     border-bottom: 2px solid #000;
     padding: 0px 0px 3px 0px;
     width: 70px;
 }
 
-.whole{
+.whole {
     display: flex;
     flex-direction: column;
 }
+
 /* Footer End */
 
 
+/* Shop Start */
+#ShopPart{
+    margin-bottom: 20px;
+}
+/* TitleBox Start */
+
+.titlebox {
+    display: flex;
+    background: #F9F1E7;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.titlebox h4 {
+    padding-left: 150px;
+    padding-right: 50px;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+.titlebox h3 {
+    padding-left: 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.titlebox h5 {
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.titlebox span {
+    padding-left: 20px;
+
+}
+
+/* TitleBox End */
 
 
+/* Sofapart Start */
+
+
+.Sofapart{
+    margin-top: 30px;
+    display: flex;
+}
+.sofarow{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sofarow .sofa{
+    padding-bottom: 20px;
+}
+
+.sofatext{
+    
+}
+
+/* Sofapart End */
+
+
+
+/* Shop End */
+
+
+
+
+
+/* Banner Start */
+/* Banner End */
+/* Banner Start */
+/* Banner End */
+/* Banner Start */
+/* Banner End */
+/* Banner Start */
+/* Banner End */
+/* Banner Start */
+/* Banner End */
 /* Banner Start */
 /* Banner End */
 /* Banner Start */
