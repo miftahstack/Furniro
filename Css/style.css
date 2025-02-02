@@ -457,21 +457,35 @@ ol {
 
 .Sofapart{
     margin-top: 30px;
+
+}
+
+.Sofa_frame{
     display: flex;
 }
-.sofarow{
+
+.Sofa_coloumn{
     display: flex;
     flex-direction: column;
 
 }
-
-.sofarow .sofa{
-    padding-bottom: 20px;
-}
-
 .sofatext{
-    
+    margin-bottom:30px ;
 }
+
+
+
+
+.sofadescription{
+    margin-bottom:30px ;
+
+}
+.sofadescription .descriptionimg{
+display: flex;
+
+}
+
+
 
 /* Sofapart End */
 
