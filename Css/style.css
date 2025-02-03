@@ -760,12 +760,15 @@ color: #9F9F9F;
 .Contactform input{
     border: 1px solid black;
     border-radius:5px ;
-    padding: 10px 50px 10px 5px;
+    padding: 12px 100px 12px 8px;
     text-align: left;
     /* border:none; */
 }
 .Contactform h3{
 text-align: left;
+font-size: 16px;
+font-weight: 400;
+margin: 10px;
 
 }
 
