@@ -737,6 +737,42 @@ ol {
 
 
 
+/* Contact Start................................. */
+.Getin{
+    text-align: center;
+    margin-top: 100px;
+}
+.Getin h1{
+font-size: 36px;
+
+}
+.Getin p{
+font-size: 16px;
+color: #9F9F9F;
+
+}
+
+.Formadd{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Contactform input{
+    border: 1px solid black;
+    border-radius:5px ;
+    padding: 10px 50px 10px 5px;
+    text-align: left;
+    /* border:none; */
+}
+.Contactform h3{
+text-align: left;
+
+}
+
+/* Contact End................................. */
+
+
+
 
 
 /* Banner Start */
