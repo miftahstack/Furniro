@@ -553,14 +553,41 @@ ol {
     justify-content: space-between;
 }
 
-.Info{
+.Info {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
 }
-.Info .General1{
-    color: white;
+
+.Info{
+
+
 }
+
+table {
+    width: 100%;
+    /* margin: auto; */
+    /* border-collapse: collapse; */
+    background: transparent;
+}
+
+
+td {
+    border: none;
+    padding: 12px 0px;
+    text-align: left;
+}
+
+th {
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
 
 
 /* Compare End................................. */
