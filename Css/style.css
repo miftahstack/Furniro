@@ -343,7 +343,7 @@ ol {
 /* ShowMore End */
 
 
-/* Footer Start */
+/* Footer Start ....................................................*/
 
 .FooterPart {
     height: 500px;
@@ -408,13 +408,14 @@ ol {
     flex-direction: column;
 }
 
-/* Footer End */
+/* Footer End ....................................................*/
 
 
-/* Shop Start */
-#ShopPart{
+/* Shop Start.................................................... */
+#ShopPart {
     margin-bottom: 20px;
 }
+
 /* TitleBox Start */
 
 .titlebox {
@@ -431,13 +432,15 @@ ol {
     padding-right: 50px;
     font-size: 16px;
     font-weight: normal;
-    
+
 }
+
 .titlebox h3 {
     padding-left: 0px;
     font-size: 16px;
     font-weight: normal;
 }
+
 .titlebox h5 {
     padding-left: 50px;
     font-size: 16px;
@@ -447,6 +450,7 @@ ol {
 .titlebox span {
     padding-left: 20px;
 
+
 }
 
 /* TitleBox End */
@@ -455,50 +459,113 @@ ol {
 /* Sofapart Start */
 
 
-.Sofapart{
+.Sofapart {
     margin-top: 30px;
 
 }
 
-.Sofa_frame{
+.Sofa_frame {
     display: flex;
 }
 
-.Sofa_coloumn{
+.Sofa_coloumn {
     display: flex;
     flex-direction: column;
 
 }
-.sofatext{
-    margin-bottom:30px ;
+
+.sofatext {
+    margin-bottom: 30px;
 }
 
 
 
 
-.sofadescription{
-    margin-bottom:30px ;
-
-}
-.sofadescription .descriptionimg{
-display: flex;
+.sofadescription {
+    margin-bottom: 30px;
 
 }
 
+.sofadescription .descriptionimg {
+    display: flex;
 
+}
 
 /* Sofapart End */
 
 
+/* Description Start */
 
-/* Shop End */
-
-
-
+/* Description End */
 
 
-/* Banner Start */
-/* Banner End */
+
+/* Shop End..................................... */
+
+
+
+
+
+/* Compare Start.............................. */
+
+.banner {
+    height: 316px;
+    width: 100%;
+    background: url(/Images/Rectangle\ 1.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_logo {
+    height: 85px;
+    width: 85px;
+    background-image: url(/Images/Meubel\ House_Logos-05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -10px;
+
+}
+
+.banner_item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.banner_item p {
+    font-size: 16px;
+}
+
+.More {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Info .General1{
+    color: white;
+}
+
+
+/* Compare End................................. */
+
+
 /* Banner Start */
 /* Banner End */
 /* Banner Start */
