@@ -346,9 +346,9 @@ ol {
 /* Footer Start ....................................................*/
 
 .FooterPart {
-    height: 500px;
+    height: 300px;
     width: 1240px;
-    margin: 50px auto;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -558,22 +558,19 @@ ol {
 
 }
 
-.Info{
-
-
+.Info {
+    
 }
 
 table {
     width: 100%;
-    /* margin: auto; */
-    /* border-collapse: collapse; */
     background: transparent;
 }
 
 
 td {
     border: none;
-    padding: 12px 0px;
+    padding: 40px 10px;
     text-align: left;
 }
 
@@ -584,11 +581,33 @@ th {
     text-align: left;
 }
 
-tr:nth-child(even) {
-    background-color: transparent;
+.Info table .atc {
+    padding:32px 107.5px ;
+    color: #fff;
+    font-size: 20px;
+
+    background: #B88E2F;
 }
 
 
+.Qualities{
+    background: #FAF3EA;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.Qitems{
+    display: flex;
+    align-items: center;
+}
+.Qitems i{
+font-size: 50px;
+padding-right: 5px;
+}
 
 /* Compare End................................. */
 
