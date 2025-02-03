@@ -559,7 +559,7 @@ ol {
 }
 
 .Info {
-    
+
 }
 
 table {
@@ -610,6 +610,41 @@ padding-right: 5px;
 }
 
 /* Compare End................................. */
+
+
+/* Cart End................................. */
+
+.CartFrame{
+    display: flex;
+justify-content: space-around;
+}
+
+.CartPartone .Partonetitle{
+    background: #F9F1E7;
+    height: 60px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.CartPartone .Partonetitle ul li{
+    display: inline;
+    padding: 0 30px;
+
+}
+
+.CartParttwo{
+    background: #F9F1E7;
+    height: 390px;
+    width: 390px;
+    
+}
+
+/* Cart End................................. */
+
+
+
 
 
 /* Banner Start */
