@@ -409,14 +409,15 @@ ol {
     flex-direction: column;
 }
 
-.hr{
+.hr {
     margin-top: 70px;
     height: 2px;
     width: 100%;
     background: #D9D9D9;
 
 }
-.FooterP p{
+
+.FooterP p {
     margin-top: 50px;
     margin-bottom: 60px;
 
@@ -686,11 +687,11 @@ ol {
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 70px;
- 
+
 }
 
 .CartParttwo h1 {
-    
+
     margin-bottom: 70px;
     margin-top: 20px;
 }
@@ -738,25 +739,27 @@ ol {
 
 
 /* Contact Start................................. */
-#Title{
+#Title {
     margin-bottom: 80px;
 }
 
-.Getin{
+.Getin {
     text-align: center;
     margin-top: 100px;
 }
-.Getin h1{
-font-size: 36px;
 
-}
-.Getin p{
-font-size: 16px;
-color: #9F9F9F;
+.Getin h1 {
+    font-size: 36px;
 
 }
 
-.Formadd{
+.Getin p {
+    font-size: 16px;
+    color: #9F9F9F;
+
+}
+
+.Formadd {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
@@ -768,68 +771,77 @@ color: #9F9F9F;
     margin-bottom: 35px;
 
 }
-.contactaddress i{
+
+.contactaddress i {
     display: flex;
     font-size: 40px;
     margin-right: 25px;
 
 }
-.contactaddresstext h2{
+
+.contactaddresstext h2 {
     font-size: 20px;
     font-weight: 5f00;
 }
+
 .contactphone {
     display: flex;
     align-items: center;
     margin-bottom: 35px;
 
 }
-.contactphone i{
+
+.contactphone i {
     display: flex;
     font-size: 35px;
     margin-right: 25px;
 
 
 }
-.contactphonetext h2{
+
+.contactphonetext h2 {
     font-size: 20px;
     font-weight: 5f00;
 }
+
 .contacttime {
     display: flex;
     align-items: center;
     margin-bottom: 35px;
 
 }
-.contacttime i{
+
+.contacttime i {
     display: flex;
     font-size: 40px;
     margin-right: 25px;
 
 }
-.contacttimetext h2{
+
+.contacttimetext h2 {
     font-size: 20px;
     font-weight: 5f00;
 }
 
-.Contactform input{
+.Contactform input {
     border: 1px solid #898989;
-    border-radius:5px ;
+    border-radius: 5px;
     padding: 12px 265px 12px 8px;
     text-align: left;
     color: #898989;
     margin-bottom: 15px;
 
 }
-.Contactform h3{
-text-align: left;
-font-size: 14px;
-font-weight: 400;
-margin-bottom: 10px;
+
+.Contactform h3 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 
-#formsubmit{
+#formsubmit {
     background: #B88E2F;
     color: white;
     display: flex;
@@ -842,12 +854,80 @@ margin-bottom: 10px;
 
 
 /* Checkout Start................................. */
-.checkoutdetails{
+.checkoutdetails {
+    margin-top: 80px;
     display: flex;
+    justify-content: space-around;
 
 }
 
-checkname
+
+.detailsform h1 {
+    margin-bottom: 20px;
+}
+
+.detailsform input {
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    width: 455px;
+    height: 75px;
+    margin-bottom: 20px;
+
+}
+
+.detailsform h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.detailnames {
+    display: flex;
+    width: 455px;
+    justify-content: space-between;
+}
+
+.detailnames input {
+    display: flex;
+    width: 210px;
+
+}
+
+.checkoutpayments {
+    height: 790px;
+    width: 610px;
+}
+
+.checkamount {
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkamount h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.checkamountleft {
+    text-align: left;
+}
+
+.checkamountleft h3 {
+    text-align: left;
+    color: #9F9F9F;
+
+}
+
+.checkamounright {
+    text-align: right;
+}
+
+.checkamounright h3 {
+    text-align: right;
+    color: #B88E2F;
+    font-size: 24px;
+}
 
 /* Checkout End................................. */
 
