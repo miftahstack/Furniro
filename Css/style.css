@@ -738,6 +738,10 @@ ol {
 
 
 /* Contact Start................................. */
+#Title{
+    margin-bottom: 80px;
+}
+
 .Getin{
     text-align: center;
     margin-top: 100px;
@@ -758,6 +762,56 @@ color: #9F9F9F;
     margin-top: 100px;
 }
 
+.contactaddress {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+
+}
+.contactaddress i{
+    display: flex;
+    font-size: 40px;
+    margin-right: 25px;
+
+}
+.contactaddresstext h2{
+    font-size: 20px;
+    font-weight: 5f00;
+}
+.contactphone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+
+}
+.contactphone i{
+    display: flex;
+    font-size: 35px;
+    margin-right: 25px;
+
+
+}
+.contactphonetext h2{
+    font-size: 20px;
+    font-weight: 5f00;
+}
+.contacttime {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+
+}
+.contacttime i{
+    display: flex;
+    font-size: 40px;
+    margin-right: 25px;
+
+}
+.contacttimetext h2{
+    font-size: 20px;
+    font-weight: 5f00;
+}
+
 .Contactform input{
     border: 1px solid #898989;
     border-radius:5px ;
@@ -772,9 +826,17 @@ text-align: left;
 font-size: 14px;
 font-weight: 400;
 margin-bottom: 10px;
+}
 
+
+#formsubmit{
+    background: #B88E2F;
+    color: white;
+    display: flex;
+    cursor: pointer;
 
 }
+
 
 /* Contact End................................. */
 
