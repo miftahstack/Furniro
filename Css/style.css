@@ -755,20 +755,24 @@ color: #9F9F9F;
 .Formadd{
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 .Contactform input{
-    border: 1px solid black;
+    border: 1px solid #898989;
     border-radius:5px ;
-    padding: 12px 100px 12px 8px;
+    padding: 12px 265px 12px 8px;
     text-align: left;
-    /* border:none; */
+    color: #898989;
+    margin-bottom: 15px;
+
 }
 .Contactform h3{
 text-align: left;
-font-size: 16px;
+font-size: 14px;
 font-weight: 400;
-margin: 10px;
+margin-bottom: 10px;
+
 
 }
 
