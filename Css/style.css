@@ -558,9 +558,7 @@ ol {
 
 }
 
-.Info {
-
-}
+.Info {}
 
 table {
     width: 100%;
@@ -582,7 +580,7 @@ th {
 }
 
 .Info table .atc {
-    padding:32px 107.5px ;
+    padding: 32px 107.5px;
     color: #fff;
     font-size: 20px;
 
@@ -590,23 +588,24 @@ th {
 }
 
 
-.Qualities{
+.Qualities {
     background: #FAF3EA;
     width: 100%;
     height: 270px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
 
-.Qitems{
+.Qitems {
     display: flex;
     align-items: center;
 }
-.Qitems i{
-font-size: 50px;
-padding-right: 5px;
+
+.Qitems i {
+    font-size: 50px;
+    padding-right: 5px;
 }
 
 /* Compare End................................. */
@@ -614,31 +613,111 @@ padding-right: 5px;
 
 /* Cart End................................. */
 
-.CartFrame{
+.CartFrame {
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
+    margin-top: 70px;
 }
 
-.CartPartone .Partonetitle{
+
+.CartPartone {}
+
+.CartPartone .Partonetitle {
     background: #F9F1E7;
     height: 60px;
     width: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.CartPartone .Partonetitle ul li{
+
+.CartPartone .Partonetitle ul li {
     display: inline;
     padding: 0 30px;
 
 }
 
-.CartParttwo{
+
+.Partonedetail {
+    display: flex;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.CartPartone .Partonedetail ul li {
+    display: inline;
+    margin: 0px 30px;
+
+}
+
+.CartPartone .Partonedetail ul li i {
+    color: #B88E2F;
+    font-size: 20px;
+
+}
+
+#Asgard1 {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 2px 10px;
+}
+
+.CartParttwo {
     background: #F9F1E7;
-    height: 390px;
+    height: 350px;
     width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 70px;
+ 
+}
+
+.CartParttwo h1 {
     
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.CartParttwocontents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.CartParttwocontents .center1_2 {
+    display: flex;
+    align-items: center;
+}
+
+.CartParttwocontents .center3_4 {
+    display: flex;
+    align-items: center;
+}
+
+
+.CartParttwocontents h2 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.CartParttwocontents h3 {
+    color: #9F9F9F;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.CartParttwocontents h4 {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px 50px;
 }
 
 /* Cart End................................. */
