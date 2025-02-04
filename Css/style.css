@@ -481,6 +481,14 @@ ol {
 
 .Sofa_frame {
     display: flex;
+    justify-content: space-around;
+
+}
+
+.sofaimg {
+    display: flex;
+
+
 }
 
 .Sofa_coloumn {
@@ -489,8 +497,121 @@ ol {
 
 }
 
+
 .sofatext {
     margin-bottom: 30px;
+
+}
+
+.sofatext h1 {
+    font-weight: 400;
+    font-size: 42px;
+
+
+}
+
+.sofatext h2 {
+    font-weight: 300;
+    font-size: 24px;
+    color: #9F9F9F;
+
+}
+
+.sofatext .stars h4 {
+    display: flex;
+    font-size: 10px;
+    color: lightgray;
+}
+
+.sofatext .stars {
+    display: flex;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.sofatext .stars input {
+    display: none;
+}
+
+.sofatext .stars label {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.sofatext .stars input:checked~label {
+    color: gold;
+}
+
+.sofatext .stars label:hover {
+    color: gold;
+}
+
+.sofatext p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin: 20px 0px;
+
+}
+
+.sofatext h4 {
+    color: #9F9F9F;
+    margin-bottom: 20px;
+
+}
+
+.sofatext h5 {
+    display: inline;
+    color: #000;
+    background: #F9F1E7;
+    padding: 12px 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-right: 10px;
+
+}
+
+.sofatext h5:hover {
+    display: inline;
+    color: #fff;
+    background: #B88E2F;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sofatext .colorflex{
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+
+.sofatext .Color_P {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #816DFA;
+    margin-right: 10px;
+}
+.sofatext .Color_B {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-right: 10px;
+}
+.sofatext .Color_Br {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #B88E2F;
+}
+
+
+
+
+.itemamountdes{
+    
 }
 
 
@@ -861,7 +982,7 @@ ol {
 
 }
 
-.detailsform{
+.detailsform {
     margin-bottom: 70px;
 }
 
@@ -989,8 +1110,9 @@ ol {
     margin-top: 30px;
 
 }
-.checkoutpayments .PlaceOrder a{
-  color: #000;
+
+.checkoutpayments .PlaceOrder a {
+    color: #000;
 }
 
 .checkoutpayments .PlaceOrder h2 {
@@ -1001,6 +1123,20 @@ ol {
 
 }
 
+/* Checkout End................................. */
+
+
+
+/* Blog Start................................. */
+
+
+
+
+/* Blog End................................. */
+
+
+
+/* Checkout End................................. */
 /* Checkout End................................. */
 
 
