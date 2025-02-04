@@ -627,7 +627,7 @@ ol {
 
 }
 
-.mainbottom{
+.mainbottom {
     margin-top: 30px;
 }
 
@@ -679,6 +679,11 @@ ol {
 }
 
 
+
+/* Sofapart End */
+
+
+/* Description Start */
 .sofadescription {
     margin-bottom: 30px;
 
@@ -686,14 +691,15 @@ ol {
 
 
 
-.sofadescription .descriptiontitle{
+.sofadescription .descriptiontitle {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 
 }
-.sofadescription .descriptiontitle h2{
+
+.sofadescription .descriptiontitle h2 {
     font-weight: 300;
     font-size: 24px;
     color: #9F9F9F;
@@ -702,10 +708,12 @@ ol {
 
 }
 
-.sofadescription p{
-color: #9F9F9F; ;
+.sofadescription p {
+    color: #9F9F9F;
+    ;
 
 }
+
 .sofadescription .descriptionimg {
     display: flex;
     align-items: center;
@@ -713,18 +721,6 @@ color: #9F9F9F; ;
     margin-top: 30px;
 
 }
-
-.sofadescription .img_one{
-}
-    
-.sofadescription .img_two{
-   
-}
-
-/* Sofapart End */
-
-
-/* Description Start */
 
 /* Description End */
 
@@ -1222,6 +1218,46 @@ color: #9F9F9F; ;
 
 
 /* Blog Start................................. */
+
+.Blog_frame1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Blogsections .searchbox i {
+    font-size: 20px;
+    height: 60px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.Categoriessections{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.Categoriessections h1{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+.Categoriessections h3,p{
+    font-size: 16px;
+    color: #9F9F9F;
+    font-weight: 300;
+
+
+}
 
 
 
