@@ -861,9 +861,15 @@ ol {
 
 }
 
+.detailsform{
+    margin-bottom: 70px;
+}
+
 
 .detailsform h1 {
     margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: normal;
 }
 
 .detailsform input {
@@ -901,32 +907,98 @@ ol {
 
 .checkamount {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between
+}
+
+.checkamount h2 {
+    margin-bottom: 18px;
 }
 
 .checkamount h4 {
     font-size: 16px;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .checkamountleft {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .checkamountleft h3 {
     text-align: left;
     color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
 
 }
 
 .checkamounright {
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .checkamounright h3 {
     text-align: right;
     color: #B88E2F;
     font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.check_hr {
+    width: 100%;
+    height: 1px;
+    background: #D9D9D9;
+    margin-top: 20px;
+
+}
+
+.Pay_info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Pay_info .ball {
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background: #000;
+    margin-right: 15px;
+}
+
+.transfer {
+    color: #9F9F9F;
+    margin: 15px 0;
+}
+
+.checkoutpayments p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.checkoutpayments .PlaceOrder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.checkoutpayments .PlaceOrder a{
+  color: #000;
+}
+
+.checkoutpayments .PlaceOrder h2 {
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px 70px;
+    font-weight: normal;
+
 }
 
 /* Checkout End................................. */
