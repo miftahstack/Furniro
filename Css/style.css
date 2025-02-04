@@ -1222,6 +1222,20 @@ ol {
 .Blog_frame1 {
     display: flex;
     justify-content: space-evenly;
+
+}
+
+.Blog_frame1 .Blogimg ul {
+    color: #9F9F9F;
+}
+
+.Blog_frame1 .Blogimg ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+.Blog_frame1 .Blogimg ul li i {
+    margin-right: 5px;
 }
 
 .Blogsections .searchbox i {
@@ -1236,29 +1250,63 @@ ol {
     border-radius: 15px;
 }
 
-.Categoriessections{
+.Categoriessections {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 
 }
-.Categoriessections h1{
+
+.Categoriessections h1 {
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
     margin-bottom: 20px;
     font-weight: 400;
+    margin-left: 50px;
 
 }
-.Categoriessections h3,p{
+
+.Categoriessections h3,
+p {
     font-size: 16px;
     color: #9F9F9F;
     font-weight: 300;
+}
 
+.Blog_frame2 {
+    display: flex;
 
 }
 
+.Blog_frame2 .Blogimg ul {
+    color: #9F9F9F;
+}
+
+.Blog_frame2 .Blogimg ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+.Blog_frame2 .Blogimg ul li i {
+    margin-right: 5px;
+}
+
+.RecentPost {
+    height: 650px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.RecentPost .recentimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
 
 
