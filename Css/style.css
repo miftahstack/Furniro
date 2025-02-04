@@ -580,10 +580,10 @@ ol {
     margin-top: 20px;
 }
 
-.sofatext .colorflex{
+.sofatext .colorflex {
     display: flex;
     margin-bottom: 25px;
-    
+
 }
 
 .sofatext .Color_P {
@@ -593,6 +593,7 @@ ol {
     background-color: #816DFA;
     margin-right: 10px;
 }
+
 .sofatext .Color_B {
     width: 30px;
     height: 30px;
@@ -600,6 +601,7 @@ ol {
     background-color: #000;
     margin-right: 10px;
 }
+
 .sofatext .Color_Br {
     width: 30px;
     height: 30px;
@@ -610,11 +612,71 @@ ol {
 
 
 
-.itemamountdes{
-    
+.itemamountdes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.itemamountdes h3 {
+    padding: 12px 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-weight: 400;
+
+}
+
+.mainbottom{
+    margin-top: 30px;
+}
+
+.mainbottom2 {
+    display: flex;
+    margin-left: 0px;
+
+    gap: 100px;
+}
+
+.mainbottom3 {
+    display: flex;
+    margin-left: 0px;
+
+    gap: 53px;
+}
+
+.mainbottom4 {
+    display: flex;
+    margin-left: 0px;
+
+    gap: 90px;
+}
+
+.mainbottom5 {
+    display: flex;
+    margin-left: 0px;
+
+    gap: 80px;
 }
 
 
+.mainbottom a {
+    font-size: 24px;
+    color: #000;
+    font-weight: 300;
+}
+
+.mainbottom h4 {
+    font-size: 16px;
+    color: #9F9F9F;
+    font-weight: 400;
+}
+
+.mainbottom span {
+    display: flex;
+    /* align-items: center; */
+
+}
 
 
 .sofadescription {
@@ -622,9 +684,41 @@ ol {
 
 }
 
+
+
+.sofadescription .descriptiontitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.sofadescription .descriptiontitle h2{
+    font-weight: 300;
+    font-size: 24px;
+    color: #9F9F9F;
+    margin-bottom: 30px;
+
+
+}
+
+.sofadescription p{
+color: #9F9F9F; ;
+
+}
 .sofadescription .descriptionimg {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
 
+}
+
+.sofadescription .img_one{
+}
+    
+.sofadescription .img_two{
+   
 }
 
 /* Sofapart End */
